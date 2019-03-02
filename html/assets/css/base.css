@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #01273d;
+}
+
+a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/prosa ung wallpaper.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: transform .2s ease-in;
+}
+
+a:hover {
+    transform: scale(.9);
+}
