@@ -10,19 +10,27 @@ html, body{
 
 body{
     background-color: #092b3f;
-}
-
-a {
-    display: block;
-    height: 100%;
-    width: 100%;
+    font-family: 'Montserrat', sans-serif;
     background-image: url("../img/logo.png");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    background: #1f3c4d;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
     transition: transform .2s ease-in;
 }
 
-a:hover {
-    transform: scale(.9);
+nav a:hover {
+    opacity: .8;
 }
